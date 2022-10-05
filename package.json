@@ -1,20 +1,19 @@
 {
-  "name": "devesec",
-  "description": "Curso de Desenvolvimento Seguro",
+  "name": "curso_devsec",
   "version": "1.0.0",
+  "description": "Curso de desenvolvimento seguro.",
+  "main": "index.js",
   "scripts": {
-    "run": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alelages/curso_devsec.git"
+    "url": "git+https://github.com/alelages/curso_devsec.git"
   },
-  "keywords": [],
-  "author": "Alexandre Lages",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alelages/curso_devsec/issues"
   },
-  "homepage": "https://github.com/alelages/curso_devsec"
+  "homepage": "https://github.com/alelages/curso_devsec#readme"
 }
