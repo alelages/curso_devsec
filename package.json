@@ -4,7 +4,7 @@
   "description": "Curso de desenvolvimento seguro.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/alelages/curso_devsec/issues"
   },
-  "homepage": "https://github.com/alelages/curso_devsec#readme"
+  "homepage": "https://github.com/alelages/curso_devsec#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "express": "^4.18.1",
+    "mocha": "^10.0.0",
+    "request": "^2.88.2"
+  }
 }
